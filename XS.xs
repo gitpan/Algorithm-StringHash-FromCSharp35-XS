@@ -11,7 +11,7 @@ CODE:
     unsigned int    num2 = num;
     int length=strlen(str);
 
-    int new_length = length + ( 8 - length % 8);
+    int new_length = length + ( 8 - length % 8) + 8;
     char chPtr[new_length];
     memset(chPtr,0,new_length);
     strcpy(chPtr,str);

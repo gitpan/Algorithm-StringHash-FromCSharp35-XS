@@ -5,3 +5,5 @@ Revision history for Perl extension Algorithm::StringHash::FromCSharp35::XS.
 0.02  Mon May 20 18:16:40 2013
 	- bugfix: error calc
 	- add 01.t
+0.03  Tue May 21 11:05:10 2013
+	- bugfix: error calc
